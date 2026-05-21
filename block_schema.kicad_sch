@@ -1,0 +1,454 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "54d5089a-985e-49b9-96d0-5a5b41131acb")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 101.6 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdf830cb-b89b-4b36-afc2-5cdf39e41376")
+	)
+	(wire
+		(pts
+			(xy 113.03 88.9) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110a284a-57ca-47b6-8790-6cd5718f7478")
+	)
+	(wire
+		(pts
+			(xy 93.98 44.45) (xy 111.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37120ce1-997d-4254-9695-8916bd0edf02")
+	)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 111.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3c196a-a09a-49c2-b9ca-432a8173e365")
+	)
+	(wire
+		(pts
+			(xy 80.01 63.5) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c46f48-804f-47c9-bb5a-4f0d8ddc2658")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.53) (xy 111.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c25c935-bd97-4d0c-bd16-965228af34dd")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 111.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8c041c-5b74-435e-b23e-b77fc92ed89f")
+	)
+	(wire
+		(pts
+			(xy 93.98 46.99) (xy 101.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d96de4-2217-426e-8a9c-faba3103da56")
+	)
+	(wire
+		(pts
+			(xy 82.55 63.5) (xy 82.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37e417c-6de8-4e03-ad06-0b3118883db2")
+	)
+	(wire
+		(pts
+			(xy 93.98 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5d0c89-db7d-42b2-8235-c5c443aed718")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd35cf53-1bb5-464d-bf45-14523f03ec44")
+	)
+	(sheet
+		(at 68.58 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1317d5a6-0aa6-4411-9b80-2261b072a430")
+		(property "Sheetname" "MCU (Arduino UNO or NANO)"
+			(at 68.58 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 68.58 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RSSI" input
+			(at 93.98 44.45 0)
+			(uuid "02a3b46f-6c56-4fef-a87c-dd33206562e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIDEO" input
+			(at 93.98 46.99 0)
+			(uuid "021d2b44-3add-4f86-b20a-42a143da4540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Data +" input
+			(at 82.55 63.5 270)
+			(uuid "51042e65-dd14-42e3-a94b-138d5fafee8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data -" input
+			(at 80.01 63.5 270)
+			(uuid "f49f601e-8fbf-49df-aff1-3b0ac5f99c09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 93.98 54.61 0)
+			(uuid "dd0deb46-0e8f-4c8d-9b36-46a8951b4982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 93.98 52.07 0)
+			(uuid "9aa4081c-5e6c-4c53-9e46-47de62a890af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 93.98 49.53 0)
+			(uuid "4e8d2b44-12be-4656-b6b5-8f4ae66d5a8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "block_schema"
+				(path "/54d5089a-985e-49b9-96d0-5a5b41131acb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 78.74)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4018ac32-47b2-40dd-9fc0-806326d99ba8")
+		(property "Sheetname" "Power Source"
+			(at 68.58 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 68.58 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Data -" input
+			(at 80.01 78.74 90)
+			(uuid "39cae181-3b1c-4dad-9047-72d6715952dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Data +" input
+			(at 82.55 78.74 90)
+			(uuid "f09c359b-0edf-4b92-8d74-7ee9a95a832e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "block_schema"
+				(path "/54d5089a-985e-49b9-96d0-5a5b41131acb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 78.74)
+		(size 23.495 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4f2e31c0-93c6-49ba-b74f-d9e2e3e903a9")
+		(property "Sheetname" "Monitor"
+			(at 113.03 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "monitor.kicad_sch"
+			(at 113.03 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIDEO" input
+			(at 113.03 88.9 180)
+			(uuid "1e2afffa-b02b-4b3b-8786-8d278087eddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "block_schema"
+				(path "/54d5089a-985e-49b9-96d0-5a5b41131acb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 38.1)
+		(size 24.13 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a055406e-10b7-4433-94b4-4b2cc73cb437")
+		(property "Sheetname" "VRX"
+			(at 111.76 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vrx.kicad_sch"
+			(at 111.76 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RSSI" input
+			(at 111.76 44.45 180)
+			(uuid "e78c2cc7-5518-4e34-a59f-b9c2e4a71b8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIDEO" input
+			(at 111.76 46.99 180)
+			(uuid "dd3a616c-5f57-4520-a22a-1598fe77defd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_CLOCK" input
+			(at 111.76 49.53 180)
+			(uuid "c7add650-f31f-4ec8-a9d8-1370c036453c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_DATA" input
+			(at 111.76 52.07 180)
+			(uuid "2bb22826-1d13-4265-9c00-9468b5c3c828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_EN" input
+			(at 111.76 54.61 180)
+			(uuid "541bfd62-d1e5-4b67-92b9-ada98af101ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "block_schema"
+				(path "/54d5089a-985e-49b9-96d0-5a5b41131acb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

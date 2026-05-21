@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b8442f8e-8c1a-4145-959f-b8618bb28806")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "SPI_DATA"
+		(shape input)
+		(at 109.22 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74d5f605-1cb4-4194-8e59-4749bba951c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6719 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_EN"
+		(shape input)
+		(at 109.22 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cb4e700-1937-4cbc-b8f5-577183b8f1d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.7366 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_CLOCK"
+		(shape input)
+		(at 109.22 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b35b9a2b-f0fa-4622-b08b-bac6fc03425e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.4257 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A0"
+		(shape input)
+		(at 109.22 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cde606f8-dbca-4e59-9cdd-cdb8b04a2f50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.5033 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+)
